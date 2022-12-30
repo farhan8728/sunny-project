@@ -16,11 +16,11 @@ body{
 .banner-text{
     color: #fff;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 220px;
     
 }
 .banner-text h1{
-    font-size: 60px;
+    font-size: 48px;
 }
 .cardimage{
     max-height: 200px;
@@ -52,11 +52,22 @@ body{
     color: #fff !important;
 }
 .input_file{
-    background: rgb(94,147,210);
-    background: linear-gradient(90deg, rgba(94,147,210,1) 0%, rgba(224,9,243,1) 100%);
+    /* background: rgb(94,147,210);
+    background: linear-gradient(90deg, rgba(94,147,210,1) 0%, rgba(224,9,243,1) 100%); */
+    background: rgb(160,196,184);
+    background: linear-gradient(90deg, rgba(160,196,184,1) 0%, rgba(238,238,226,1) 100%);
+    box-shadow: -5px 7px 26px -8px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 7px 26px -8px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 7px 26px -8px rgba(255,255,255,0.75);
     padding: 50px;
+    border-radius: 10px;
 }
-
+.input_login{
+    padding-top: 130px;
+}
+#courses{
+    margin-top: 150px;
+}
 
 @media screen and (max-width:767px){
     .banner{
@@ -70,5 +81,24 @@ body{
     }
     .card{
         margin-left: 80px;
+    }
+    .banner-text{
+        padding-top: 40px;
+    }
+    .input_login{
+        margin-top: -70px;
+        
+    }
+    #courses{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+    .banner-text{
+        padding-top: 192px;
+    }
+    #courses{
+        margin-top: 4rem;
     }
 }
